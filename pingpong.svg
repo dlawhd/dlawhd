@@ -1,16 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="960"
+  height="280"
+  viewBox="0 0 960 280"
+  role="img"
+  aria-labelledby="title desc"
+>
   <title id="title">PING PONG × GITHUB GRASS</title>
-  <desc id="desc">GitHub의 실제 공개 기여 기록: 405회, 기여한 날짜 135일</desc>
+  <desc id="desc">
+    GitHub의 실제 공개 기여 기록: 409회, 기여한 날짜 135일.
+    공이 좌우 패들에 튕기는 애니메이션이 포함되어 있습니다.
+  </desc>
+
+  <!-- 바깥 배경 -->
   <rect width="960" height="280" rx="18" fill="#102D27"/>
-  <text x="36" y="37" fill="#BDEBD6" font-family="Arial, sans-serif" font-size="17" font-weight="bold">PING PONG × GITHUB GRASS</text>
-  <text x="922" y="36" text-anchor="end" fill="#BDEBD6" font-family="Arial, sans-serif" font-size="13">405 contributions</text>
-  <rect x="31" y="56" width="898" height="171" rx="14" fill="#193F35" stroke="#6DC9A2" stroke-width="3"/>
-  <path d="M480 60 V223" fill="none" stroke="#8EC9AC" stroke-width="2" stroke-dasharray="6 7" opacity="0.5"/>
-  <!-- 왼쪽과 오른쪽 막대는 탁구채를 나타냅니다. -->
-  <rect x="49" y="119" width="9" height="49" rx="4" fill="#9BE8C3"/>
-  <rect x="902" y="119" width="9" height="49" rx="4" fill="#9BE8C3"/>
-  <!-- 아래 잔디 칸은 실제 API 응답을 기반으로 만들어집니다. -->
+
+  <!-- 제목 -->
+  <text
+    x="36"
+    y="37"
+    fill="#BDEBD6"
+    font-family="Arial, sans-serif"
+    font-size="17"
+    font-weight="bold"
+  >
+    PING PONG × GITHUB GRASS
+  </text>
+
+  <text
+    x="922"
+    y="36"
+    text-anchor="end"
+    fill="#BDEBD6"
+    font-family="Arial, sans-serif"
+    font-size="13"
+  >
+    409 contributions
+  </text>
+
+  <!-- 탁구대 -->
+  <rect
+    x="31"
+    y="56"
+    width="898"
+    height="171"
+    rx="14"
+    fill="#193F35"
+    stroke="#6DC9A2"
+    stroke-width="3"
+  />
+
+  <!-- 중앙 점선 -->
+  <path
+    d="M480 60 V223"
+    fill="none"
+    stroke="#8EC9AC"
+    stroke-width="2"
+    stroke-dasharray="6 7"
+    opacity="0.5"
+  />
+
+  <!-- 중앙 텍스트 -->
+  <text
+    x="480"
+    y="92"
+    text-anchor="middle"
+    fill="#D4F6E5"
+    font-family="Arial, sans-serif"
+    font-size="14"
+    font-weight="bold"
+    opacity="0.9"
+  >
+    PING! PONG!
+  </text>
+
+  <!-- 실제 GitHub 잔디 칸 -->
   <rect x="111" y="104" width="10" height="10" rx="2" fill="#EAF7F0"/>
   <rect x="111" y="118" width="10" height="10" rx="2" fill="#83D3AE"/>
   <rect x="111" y="132" width="10" height="10" rx="2" fill="#83D3AE"/>
@@ -375,7 +440,69 @@
   <rect x="825" y="160" width="10" height="10" rx="2" fill="#EAF7F0"/>
   <rect x="825" y="174" width="10" height="10" rx="2" fill="#BFEAD5"/>
   <rect x="825" y="188" width="10" height="10" rx="2" fill="#BFEAD5"/>
-  <rect x="839" y="104" width="10" height="10" rx="2" fill="#42AB82"/>
-  <circle cx="480" cy="215" r="6" fill="#FFFFFF"/>
-  <text x="480" y="257" text-anchor="middle" fill="#BDEBD6" font-family="Arial, sans-serif" font-size="13">REAL GITHUB CONTRIBUTIONS · MINT EDITION</text>
+  <rect x="839" y="104" width="10" height="10" rx="2" fill="#176B54"/>
+
+  <!-- 왼쪽 패들 -->
+  <rect x="49" y="119" width="10" height="52" rx="5" fill="#9BE8C3">
+    <animate
+      attributeName="y"
+      values="119;95;135;110;119"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- 오른쪽 패들 -->
+  <rect x="901" y="119" width="10" height="52" rx="5" fill="#9BE8C3">
+    <animate
+      attributeName="y"
+      values="119;140;100;128;119"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- 공 그림자 -->
+  <ellipse cx="140" cy="202" rx="7" ry="3" fill="#0A1B17" opacity="0.35">
+    <animate
+      attributeName="cx"
+      values="140;220;300;380;460;540;620;700;780;840;760;680;600;520;440;360;280;200;140"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="cy"
+      values="198;190;182;174;166;178;188;198;202;194;184;174;166;178;188;198;202;194;198"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </ellipse>
+
+  <!-- 탁구공 -->
+  <circle cx="140" cy="188" r="7" fill="#FFFFFF">
+    <animate
+      attributeName="cx"
+      values="140;220;300;380;460;540;620;700;780;840;760;680;600;520;440;360;280;200;140"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="cy"
+      values="188;164;140;118;102;120;146;172;190;166;142;118;98;122;148;174;194;166;188"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <!-- 하단 설명 -->
+  <text
+    x="480"
+    y="257"
+    text-anchor="middle"
+    fill="#BDEBD6"
+    font-family="Arial, sans-serif"
+    font-size="13"
+  >
+    REAL GITHUB CONTRIBUTIONS · ANIMATED PING PONG
+  </text>
 </svg>
