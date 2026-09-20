@@ -5,6 +5,9 @@
  */
 import { mkdir, writeFile } from 'node:fs/promises';
 
+// 실행 중인 JavaScript 파일의 경로를 URL로 변환합니다.
+import { pathToFileURL } from 'node:url';
+
 // GitHub 기여 단계별 색상을 민트 팔레트로 매핑합니다.
 const COLORS = {
   NONE: '#EAF7F0',
@@ -330,9 +333,23 @@ async function main() {
   );
 }
 
-if (process.argv[1] && import.meta.url === new URL(\`file://\${process.argv[1]}\`).href) {
+
+/**
+ * 현재 파일을 직접 실행했을 때만 main()을 실행합니다.
+ *
+ * pathToFileURL()은 파일 경로를 올바른 URL로 변환합니다.
+ * 이를 통해 GitHub Actions에서도 안전하게 실행할 수 있습니다.
+ */
+if (
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href
+) {
+  // GitHub 기여 기록을 가져와 탁구대 SVG를 생성합니다.
   main().catch((error) => {
+    // 오류가 발생하면 Actions 로그에 원인을 출력합니다.
     console.error(error.message);
+
+    // 작업을 실패로 표시해 문제를 확인할 수 있도록 합니다.
     process.exitCode = 1;
   });
 }
