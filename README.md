@@ -144,7 +144,51 @@ React와 AWS를 활용해 실제 서비스를 구현하고 배포하고 있습�
 
 ---
 
-<!-- 5. 연락처: 추후 공개 가능한 이메일로 교체 -->
+
+<!-- 5. GitHub 활동 그래프: 민트색 잔디와 뱀 애니메이션 -->
+
+## 🌿 GitHub Activity
+
+<div align="center">
+
+<!--
+  사용자의 GitHub 화면 설정에 맞춰
+  밝은 이미지와 어두운 이미지를 자동으로 선택합니다.
+-->
+<picture>
+
+  <!-- 다크 모드에서 사용하는 민트색 뱀 이미지 -->
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/dlawhd/dlawhd/output/github-snake-dark.svg"
+  >
+
+  <!-- 라이트 모드에서 사용하는 민트색 뱀 이미지 -->
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/dlawhd/dlawhd/output/github-snake.svg"
+  >
+
+  <!-- 기본 이미지: 라이트 모드용 -->
+  <img
+    alt="GitHub 기여 기록을 보여주는 민트색 뱀 애니메이션"
+    src="https://raw.githubusercontent.com/dlawhd/dlawhd/output/github-snake.svg"
+    width="100%"
+  >
+
+</picture>
+
+<br>
+
+꾸준히 기록하고, 개선하며 성장하고 있습니다. 🌱
+
+</div>
+
+<br>
+
+---
+
+<!-- 6. 연락처: 추후 공개 가능한 이메일로 교체 -->
 
 ## 📫 Contact
 
@@ -157,7 +201,7 @@ GitHub: [github.com/dlawhd](https://github.com/dlawhd)
 
 <br>
 
-<!-- 6. 프로필 하단 마무리 문구 -->
+<!-- 7. 프로필 하단 마무리 문구 -->
 
 <div align="center">
 
