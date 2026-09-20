@@ -144,27 +144,6 @@ React와 AWS를 활용해 실제 서비스를 구현하고 배포하고 있습�
 
 ---
 
-
-<!-- 5. GitHub 활동 그래프: 민트색 잔디와 뱀 애니메이션 -->
-
-
-<!--
-  GitHub 활동 그래프
-  역할: output 브랜치에서 생성한 민트색 뱀 이미지를 표시합니다.
-  GitHub Actions가 매일 이미지를 자동으로 갱신합니다.
--->
-
-## 🌿 GitHub Activity
-
-![민트색 GitHub 잔디와 뱀 애니메이션](https://raw.githubusercontent.com/dlawhd/dlawhd/output/github-snake.svg)
-
-꾸준히 기록하고, 개선하며 성장하고 있습니다. 🌱
-
----
-
-<!-- 6. 연락처: 추후 공개 가능한 이메일로 교체 -->
-
-
 <!--
   GitHub 탁구대
   실제 공개 기여 기록을 기반으로 자동 갱신되는 SVG입니다.
@@ -186,7 +165,7 @@ GitHub: [github.com/dlawhd](https://github.com/dlawhd)
 
 <br>
 
-<!-- 7. 프로필 하단 마무리 문구 -->
+<!-- 5. 프로필 하단 마무리 문구 -->
 
 <div align="center">
 
