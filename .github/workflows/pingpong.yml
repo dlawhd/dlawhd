@@ -1,0 +1,44 @@
+# 실제 GitHub 기여 달력으로 탁구대 SVG를 생성합니다.
+# 기존 snake.yml 및 output 브랜치를 건드리지 않습니다.
+name: Generate Mint Ping Pong
+
+on:
+  # 매일 12:15 KST (03:15 UTC)에 다시 생성합니다.
+  schedule:
+    - cron: '15 3 * * *'
+  # Actions 화면에서 직접 실행할 수 있습니다.
+  workflow_dispatch:
+
+# SVG를 별도 브랜치에 저장할 수 있도록 저장소 쓰기 권한을 설정합니다.
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # 1. main 브랜치의 스크립트를 가져옵니다.
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      # 2. 추가 npm 라이브러리 없이 사용할 Node.js를 준비합니다.
+      - name: Prepare Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 3. 공식 GitHub API에서 기여 기록을 읽어 SVG를 생성합니다.
+      - name: Generate real contribution table
+        run: node scripts/generate-pingpong-svg.mjs
+        env:
+          GITHUB_USER: dlawhd
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4. 기존 뱀의 output 브랜치와 분리된 브랜치에 결과만 게시합니다.
+      - name: Publish ping pong SVG
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pingpong-output
+          publish_dir: ./dist
