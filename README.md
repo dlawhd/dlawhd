@@ -164,6 +164,17 @@ React와 AWS를 활용해 실제 서비스를 구현하고 배포하고 있습�
 
 <!-- 6. 연락처: 추후 공개 가능한 이메일로 교체 -->
 
+
+<!--
+  GitHub 탁구대
+  실제 공개 기여 기록을 기반으로 자동 갱신되는 SVG입니다.
+  기존 민트색 뱀 애니메이션은 유지합니다.
+-->
+
+## 🏓 Ping Pong × GitHub Grass
+
+![실제 GitHub 잔디로 만든 민트색 탁구대](https://raw.githubusercontent.com/dlawhd/dlawhd/pingpong-output/pingpong.svg)
+
 ## 📫 Contact
 
 GitHub: [github.com/dlawhd](https://github.com/dlawhd)
