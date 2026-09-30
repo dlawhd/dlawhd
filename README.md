@@ -49,9 +49,6 @@ Java·Spring Boot로 백엔드를 설계하고 React로 사용자 경험을 구�
 
 친구, 가족, 연인과 저금통을 만들고 사진·영상·메시지를 함께 기록한 뒤, 정해진 날짜에 다시 열어볼 수 있는 서비스입니다.
 
-**기술**<br>
-`Java 17` `Spring Boot` `Spring Security` `React` `MariaDB` `AWS EC2` `AWS S3` `Docker`
-
 **주요 구현**
 
 - 자체 로그인과 Google·Naver·Kakao 소셜 로그인을 통합하고, 저금통 멤버별 권한을 분리했습니다.
