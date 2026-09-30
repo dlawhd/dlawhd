@@ -314,7 +314,6 @@ export function renderSvg(calendar) {
     <animate attributeName="cy" values="${ballYValues}" keyTimes="${keyTimes}" dur="${totalDuration.toFixed(2)}s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="480" y="257" text-anchor="middle" fill="#BDEBD6" font-family="Arial, sans-serif" font-size="13">RANDOM ACTIVE CELLS · ${escapeXml(String(visibleCount))} HITS · LOOP</text>
   </g>
 
   <!-- 탁구 화면이 모두 사라진 다음, 배경 중앙에 성공 문구 하나만 표시합니다. -->
