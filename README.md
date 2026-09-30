@@ -1,14 +1,14 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:14594C,100:27866D&height=180&section=header&text=System.out.println%28%22Hello%2C%20World%21%22%29%3B&fontSize=36&fontColor=FFFFFF&animation=fadeIn"
+  src="https://raw.githubusercontent.com/dlawhd/dlawhd/main/assets/banner-java-hello.png"
+  alt='System.out.println("Hello, World!");'
   width="100%"
-  alt="System.out.println(&quot;Hello, World!&quot;);"
 />
 
 ### 제 GitHub에 방문해주셔서 감사합니다. 😊
   
-# Backend Developer 임종현입니다 👋
+## 백엔드 개발자로 성장하고 있는 임종현입니다 👋
 
 ### 사용자에게 보이지 않는 곳까지 안정적인 서비스를 만들고 싶습니다.
 
@@ -17,7 +17,7 @@ Java, Spring Boot를 중심으로 백엔드를 개발하며<br>
 
 <br>
 
-<img src="https://img.shields.io/badge/Backend_Developer-27866D?style=flat-square" />
+<img src="https://img.shields.io/badge/Aspiring_Backend_Developer-27866D?style=flat-square" />
 <img src="https://img.shields.io/badge/Java_&_Spring_Boot-14594C?style=flat-square" />
 
 </div>
@@ -66,6 +66,7 @@ Java, Spring Boot를 중심으로 백엔드를 개발하며<br>
 <img src="https://img.shields.io/badge/JUnit_5-476A5A?style=flat-square&logo=junit5&logoColor=white" /> <img src="https://img.shields.io/badge/Mockito-476A5A?style=flat-square" />
 <img src="https://img.shields.io/badge/Testcontainers-476A5A?style=flat-square&logo=testcontainers&logoColor=white" />
 <img src="https://img.shields.io/badge/k6-476A5A?style=flat-square&logo=k6&logoColor=white" />
+
 ---
 
 ## 🏓 GitHub Activity
@@ -75,7 +76,5 @@ Java, Spring Boot를 중심으로 백엔드를 개발하며<br>
 ### Ping Pong × GitHub Grass
 
 <img src="https://raw.githubusercontent.com/dlawhd/dlawhd/pingpong-output/pingpong.svg" alt="Ping Pong GitHub Contribution" width="100%" />
-
-</div>
 
 </div>
