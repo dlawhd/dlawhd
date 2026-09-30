@@ -6,16 +6,6 @@
 
 Java·Spring Boot로 백엔드를 설계하고 React로 사용자 경험을 구현합니다.<br>
 인증, 권한, 파일 저장, 실시간 기능, AI 연동처럼 서비스 운영에서 마주하는 문제를 직접 해결해 왔습니다.
-
-<br>
-
-<a href="https://www.esjh.shop">
-  <img src="https://img.shields.io/badge/Memory_Jar-서비스_바로가기-27866D?style=flat-square" alt="Memory Jar 서비스 바로가기">
-</a>
-<a href="https://github.com/dlawhd/graduation">
-  <img src="https://img.shields.io/badge/GitHub-프로젝트_코드-30363D?style=flat-square" alt="Memory Jar GitHub 저장소">
-</a>
-
 </div>
 
 ---
@@ -77,7 +67,13 @@ Java·Spring Boot로 백엔드를 설계하고 React로 사용자 경험을 구�
 - 목록 조회에서 AI 디자인 정보를 함께 읽도록 구성해 불필요한 반복 조회를 줄였습니다.
 - AI 후보·원본 이미지의 수명 주기를 관리하고, 최종 디자인만 저금통에 유지하도록 정리 정책을 구현했습니다.
 
-[🌐 서비스 방문하기](https://www.esjh.shop) · [💻 소스 코드 보기](https://github.com/dlawhd/graduation)
+<a href="https://www.esjh.shop">
+  <img src="https://img.shields.io/badge/Memory_Jar-서비스_바로가기-27866D?style=flat-square" alt="Memory Jar 서비스 바로가기">
+</a>
+<br>
+<a href="https://github.com/dlawhd/graduation">
+  <img src="https://img.shields.io/badge/GitHub-프로젝트_코드-30363D?style=flat-square" alt="Memory Jar GitHub 저장소">
+</a>
 
 ---
 
