@@ -15,8 +15,6 @@
 Java, Spring Boot를 중심으로 백엔드를 개발하며<br>
 기능 구현뿐 아니라 **보안, 데이터, 성능, 테스트, 배포까지 이어지는 과정**을 중요하게 생각합니다.
 
-<br>
-
 <img src="https://img.shields.io/badge/Aspiring_Backend_Developer-27866D?style=flat-square" />
 <img src="https://img.shields.io/badge/Java_&_Spring_Boot-14594C?style=flat-square" />
 
